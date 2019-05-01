@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <LangVersion>LATEST</LangVersion>
+    <!-- <LangVersion>8.0</LangVersion> -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Zyborg.Lockbox\Zyborg.Lockbox.csproj" />
+    <ProjectReference Include="..\Zyborg.Lockbox.Server.Data\Zyborg.Lockbox.Server.Data.csproj" />
+    <ProjectReference Include="..\Zyborg.Lockbox.Server\Zyborg.Lockbox.Server.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="2.3.4" />
+  </ItemGroup>
+
+</Project>
